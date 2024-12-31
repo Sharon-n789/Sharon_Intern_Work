@@ -1,0 +1,15 @@
+digraph AR6_WGII {
+	rankdir=LR
+	node [color=lightblue shape=ellipse style=filled]
+	AR6 [label="AR6 WGII" URL="https://www.ipcc.ch/report/ar6/wg2/"]
+	SPM [label="Summary for Policymakers" URL="https://www.ipcc.ch/report/ar6/wg2/chapter/summary-for-policymakers/"]
+	TS [label="Technical Summary" URL="https://www.ipcc.ch/report/ar6/wg2/chapter/technical-summary/"]
+	FR [label="Full Report" URL="https://www.ipcc.ch/report/ar6/wg2/"]
+	CP [label=Chapters URL="https://www.ipcc.ch/report/ar6/wg2/"]
+	CCP [label="Cross Chapters" URL="https://www.ipcc.ch/report/ar6/wg2/"]
+	AR6 -> SPM
+	AR6 -> TS
+	AR6 -> FR
+	AR6 -> CP
+	AR6 -> CCP
+}

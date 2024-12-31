@@ -1,0 +1,15 @@
+digraph IPCC_CCP7_Structure {
+	rankdir=LR
+	node [color=lightgreen shape=ellipse style=filled]
+	CCP7 [label="Cross-Chapter Paper 7: Tropical Forests" URL="https://www.ipcc.ch/report/ar6/wg2/chapter/ccp7/"]
+	ExecSummary [label="Executive Summary" URL="https://www.ipcc.ch/report/ar6/wg2/chapter/ccp7/#exec-summary"]
+	Authors [label=Authors URL="https://www.ipcc.ch/report/ar6/wg2/chapter/ccp7/#authors"]
+	Figures [label=Figures URL="https://www.ipcc.ch/report/ar6/wg2/chapter/ccp7/#figures"]
+	Citations [label="How to Cite" URL="https://www.ipcc.ch/report/ar6/wg2/chapter/ccp7/#how-to-cite"]
+	FullReport [label="Full Report" URL="https://www.ipcc.ch/report/ar6/wg2/chapter/ccp7/full-report/"]
+	CCP7 -> ExecSummary
+	CCP7 -> Authors
+	CCP7 -> Figures
+	CCP7 -> Citations
+	CCP7 -> FullReport
+}
